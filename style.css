@@ -100,7 +100,7 @@ main .containerMain .image-Autor-Main .img1{
 
 main .containerMain .image-Autor-Main .auto-Auto-Main{
     position: absolute;
-    bottom: 20px;
+    bottom: -40px;
     right: 110px;
     width: 410px;
     height: 190px;
@@ -150,10 +150,8 @@ main .containerMain .image-Autor-Main .auto-Auto-Main .flexAutor .designedAutor{
 /* Footer */
 
 footer{
-    position: absolute;
-    bottom: 10px;
-    left: 40%;
-    padding-top: 128px;
+    text-align: center;
+    padding-top: 250px;
 }
 
 footer h4{
