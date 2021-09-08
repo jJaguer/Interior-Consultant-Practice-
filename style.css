@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #181719;
+    color: #fff;
+    margin: 42px 77px;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Header */
+header nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav .this-Interior{
+    padding: 3px 5px;
+    border: 1px solid #fff;
+    font-size: 14px;
+    font-family: 'Crimson Pro', serif;
+}
+
+header nav .hiddenMovil{
+    display: flex;
+    justify-content: right;
+}
+
+header nav .hiddenMovil li{
+    list-style: none;
+    margin-left: 80px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+header nav .hiddenMovil li:first-child{
+    border-bottom: 2px solid #fff;
+    font-weight: 700;
+}
+
+header nav .icoMenuMovil{
+    display: none;
+}
+
+.navMenuMovil{
+    display: none;
+}
+
+/* Main */
+
+main .containerMain{
+    display: flex;
+    align-items: center;
+}
+
+main .containerMain .paragraphMain{
+    width: 750px;
+}
+
+main .containerMain .paragraphMain h2{
+    font-size: 48px;
+    font-family: 'Lora', serif;
+    font-weight: 500;
+    line-height: 62px;
+}
+
+main .containerMain .paragraphMain p{
+    margin: 40px  0 48px 0; 
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+main .containerMain .paragraphMain a{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    line-height: 22px;
+}
+
+main .containerMain .paragraphMain a i{
+    margin-left: 10px;
+}
+
+main .containerMain .image-Autor-Main{
+    margin-top:5%;
+}
+
+main .containerMain .image-Autor-Main .img1{
+    width: 750px;
+}
+
+main .containerMain .image-Autor-Main .auto-Auto-Main{
+    position: absolute;
+    bottom: 260px;
+    right: 110px;
+    width: 410px;
+    height: 190px;
+    background-color: #181719;
+    box-shadow: 0 4px 4px 0 #000;
+}
+
+main .containerMain .image-Autor-Main .auto-Auto-Main .flexAutor{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+main .containerMain .image-Autor-Main .auto-Auto-Main .flexAutor .img2{
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+main .containerMain .image-Autor-Main .auto-Auto-Main .flexAutor .textAutor{
+    display: inline-block;
+    transform: translateY(-23px);
+}
+
+main .containerMain .image-Autor-Main .auto-Auto-Main .flexAutor .textAutor h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+main .containerMain .image-Autor-Main .auto-Auto-Main .flexAutor .textAutor h5{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #828282;
+}
+
+main .containerMain .image-Autor-Main .auto-Auto-Main .flexAutor .designedAutor{
+    font-family: 'Lora', serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    transform: translateY(20px);
+}
+
+/* Footer */
+
+footer{
+    position: absolute;
+    bottom: 10px;
+    left: 40%;
+    padding-top: 128px;
+}
+
+footer h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #a9a9a9;
+}
+
+/* Media 375px x 776px */
+
+@media screen and (width:375px){
+    body{
+        margin: 30px 20px;
+    }
+
+    header nav{
+        position: relative;
+    }
+
+    header nav .hiddenMovil{
+        display: none;
+    }
+
+    header nav .fa-bars{
+        font-size: 29px;
+    }
+
+    header nav .icoMenuMovil{
+        display: flex;
+    }
+    
+    .navMenuMovil{
+        display: none;
+        position: relative;
+        background-color: #181719;
+    }
+
+    .active{
+        display: flex;
+        position: absolute;
+        right: 0;
+        left: 0;
+        margin: auto;
+        z-index: 1000;
+    }
+
+    header nav .navMenuMovil .hiddenPC{
+        display: flex;
+        flex-direction: column;
+        padding-top: 60%;
+        width: 100vw;
+        height: 776px;
+        list-style: none;
+    }
+
+    header nav .navMenuMovil .exitMenuMovil{
+        position: absolute;
+        top: 0;
+        right: 20px;
+    }
+
+    header nav .navMenuMovil a{
+        font-size: 29px;
+    }
+
+    header nav .navMenuMovil .hiddenPC li{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 32px;
+    }
+
+    header nav .navMenuMovil .hiddenPC li a{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    header nav .navMenuMovil .hiddenPC li .firstHomeMovil{
+        font-weight: 700;
+        border-bottom: 2px solid #fff;
+    }
+
+    /* Main */
+    main .containerMain{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    main .containerMain .paragraphMain{
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    main .containerMain .paragraphMain h2{
+        font-size: 36px;
+        line-height: 46px;
+    }
+
+    main .containerMain .paragraphMain p{
+        margin: 25px 0;
+        width: 250px;
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    main .containerMain .paragraphMain a{
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    main .containerMain .image-Autor-Main{
+        margin:30px 20px;
+    }
+
+    main .containerMain .image-Autor-Main .img1{
+        width: 350px;
+    }
+
+    main .containerMain .image-Autor-Main .auto-Auto-Main{
+        position: absolute;
+        bottom: 120px;
+        right: 25px;
+        width: 300px;
+        height: 150px;
+        background-color: #181719;
+        box-shadow: 0 4px 4px 0 #000;
+    }
+
+    main .containerMain .image-Autor-Main .auto-Auto-Main .flexAutor{
+        margin: 2px 0 0 20px;
+    }
+
+    main .containerMain .image-Autor-Main .auto-Auto-Main .flexAutor .img2{
+        width: 50px;
+        border-radius: 50%;
+        margin: 10px 0;
+    }
+
+    main .containerMain .image-Autor-Main .auto-Auto-Main .flexAutor .textAutor h4{
+        margin-left: 15px;
+        font-size: 12px;
+        line-height: 15px; 
+    }
+    
+    main .containerMain .image-Autor-Main .auto-Auto-Main .flexAutor .textAutor h5{
+        margin-left: 15px;
+        font-size: 10px;
+        line-height: 12px;
+    }
+    
+    main .containerMain .image-Autor-Main .auto-Auto-Main .flexAutor .designedAutor{
+        width: 210px;
+        font-size: 18px;
+        line-height: 23px;
+        transform: translateY(5px);
+    }
+}
+
+
+
