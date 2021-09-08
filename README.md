@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{Your project name}</h1>
+<h1 align="center">Interior Consultant</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://pensive-kowalevski-3215a8.netlify.app">
       Demo
     </a>
     <span> | </span>
@@ -41,10 +41,14 @@
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
+Where can I see your demo?
+R: I, you can see my demo in this hosting: https://pensive-kowalevski-3215a8.netlify.app
+What was your experience?
+R: Hi, i'm not experience on jobs, but I'm learning and I want to become a great programmer
+What have you learned/improved?
+R: I have learned too much in all this time that I have been learning, thus mastering HTML5 and CSS including a little JS
+Your wisdom? :)
+R: HTML5, CSS, JS.
 
 ### Built With
 
